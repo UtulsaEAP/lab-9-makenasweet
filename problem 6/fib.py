@@ -13,8 +13,8 @@ def fibonacci(n):
 
     else: 
         prev, curr = 0,1
-        for range (2, n+1):
-        prev, curr = curr, prev + curr 
+        for i in range (2, n+1):
+            prev, curr = curr, prev + curr 
         return curr 
 
 if __name__ == '__main__':
